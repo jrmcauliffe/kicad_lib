@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MSP430F5309IPT
+D 24kB Flash, 6kB RAM, LQFP-48
+K TI MSP430 16-bit mixed signal microcontroller
+F http://www.ti.com/lit/ds/symlink/msp430f5309.pdf
+$ENDCMP
+#
+$CMP MSP430F5310IPT
+D 32kB Flash, 6kB RAM, LQFP-48
+K TI MSP430 16-bit mixed signal microcontroller
+F http://www.ti.com/lit/ds/symlink/msp430f5310.pdf
+$ENDCMP
+#
+$CMP MSP430FR2355TPT
+D 16kB Flash, 6kB RAM, LQFP-48
+K TI MSP430 16-bit mixed signal microcontroller
+F http://www.ti.com/lit/ds/symlink/msp430f5308.pdf
+$ENDCMP
+#
+#End Doc Library
