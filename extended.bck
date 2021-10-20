@@ -13,9 +13,9 @@ F http://www.ti.com/lit/ds/symlink/msp430f5310.pdf
 $ENDCMP
 #
 $CMP MSP430FR2355TPT
-D 16kB Flash, 6kB RAM, LQFP-48
+D 32kB Flash, 4kB RAM, LQFP-48
 K TI MSP430 16-bit mixed signal microcontroller
-F http://www.ti.com/lit/ds/symlink/msp430f5308.pdf
+F https://www.ti.com/lit/ds/symlink/msp430fr2355.pdf
 $ENDCMP
 #
 #End Doc Library
