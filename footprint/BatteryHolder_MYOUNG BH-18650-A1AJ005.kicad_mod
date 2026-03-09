@@ -1,0 +1,152 @@
+(footprint "BatteryHolder_MYOUNG BH-18650-A1AJ005"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "18650 Battery Holder (http://www.memoryprotectiondevices.com/datasheets/BK-18650-PC2-datasheet.pdf)")
+	(tags "18650 Battery Holder")
+	(property "Reference" "REF**"
+		(at 35 3.5 0)
+		(layer "F.SilkS")
+		(uuid "1d66314b-7400-42c0-aba2-f5f5e1d0a73b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BatteryHolder_MYOUNG BH-18650-A1AJ005"
+		(at 35 -3 0)
+		(layer "F.Fab")
+		(uuid "678f6c3f-888e-4580-afb0-4b2f73de4691")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85453e39-7c94-4d1d-bb2f-ee9568133230")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a18411eb-fd90-40bf-8dc7-614a59b15ba1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3461d16e-510a-4097-bc60-540c6793b0af")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2.75 -10.5)
+		(end 72.75 10.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f7462858-706a-48e1-9a5e-11231a0af8cb")
+	)
+	(fp_rect
+		(start -3 -10.75)
+		(end 73 10.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "aff39147-9a47-4fb3-87fc-f3af82c038fc")
+	)
+	(fp_circle
+		(center 35 0)
+		(end 37.5 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "3e9c0a0f-125b-4e5e-8558-d4ab97d84ee1")
+	)
+	(fp_rect
+		(start -2.5 -10.25)
+		(end 72.5 10.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "b293dfb1-3d8e-4488-a50d-08c806619286")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 35 -5 0)
+		(layer "F.Fab")
+		(uuid "2f551d3c-389a-4a40-9bfa-8c3e1b7534d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.5 3.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "93ba430c-8579-40c8-bfad-6bde630778ec")
+	)
+	(pad "2" thru_hole circle
+		(at 70 0)
+		(size 2.5 2.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6dcdd6cd-2e60-4995-8a4b-f04c3a08d94a")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_MPD_BH-18650-PC2.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
